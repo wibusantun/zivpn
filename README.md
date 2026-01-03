@@ -4,8 +4,9 @@ bash <(curl -fsSL https://raw.githubusercontent.com/wibusantun/zivpn/main/zivpn.
 ```
 bash <(curl -fsSL https://raw.githubusercontent.com/wibusantun/zivpn/main/uninstall.sh)
 ```
+
+Edit bagian before.rules di etc/ufw
 ```
-edit bagian before.rules di etc/ufw
 *nat
 :PREROUTING ACCEPT [0:0]
 
